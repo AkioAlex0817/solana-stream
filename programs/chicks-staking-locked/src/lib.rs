@@ -784,6 +784,7 @@ pub struct EmitReward<'info> {
     )]
     pub staking_account: Account<'info, StakingAccount>,
 
+    ///CHECK : Test Code
     pub token_from_authority: AccountInfo<'info>,
 
     #[account(
