@@ -623,6 +623,7 @@ pub struct StakeByService<'info> {
     //the token account to withdraw from
     pub token_from: Box<Account<'info, TokenAccount>>,
 
+    /// CHECK: Test Code
     //target_user_account
     pub target_user_account: AccountInfo<'info>,
 
